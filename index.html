@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+
+	<body>
+		<div class=""></div>
+		<div class="content">
+			<div class="top">
+				<span class="top_sp">深圳市球球圈网络科技有限公司</span>
+				<a class="top_link" href="javascript:void(0)">增值服务</a>
+				<span class="border_sp"></span>
+				<div class="top_right">
+					<img class="Usimg" src="images/100_1479361586.png" /><span class="UsName">Mike</span>
+				</div>
+			</div>
+			<div class="management clearfix">
+				<div class="mune">
+					<ul class="mune_ul">
+						<li class="lii">成员管理</li>
+						<li class="lll">通知</li>
+						<ul class="ul">
+							<li>收到的通知</li>
+							<li>发送的通知</li>
+						</ul>
+						<li class="ll">流程</li>
+						<ul class="ui">
+							<li>我申请的流程</li>
+							<li>需要我申请的流程</li>
+							<li>抄送给我的流程</li>
+						</ul>
+					</ul>
+				</div>
+				<div class="tab">
+					<div class="tab-top">
+						<span class="tab-top-sp">需要我审批的流程</span>
+						<div class="Export_btn">导出流程</div>
+					</div>
+					<div class="tab-time">
+						时间：<input class="dateTime" type="text" />流程类型:
+						<select class="dataSele">
+							<option>全部类别</option>
+							<option>审批</option>
+							<option>123</option>
+							<option>测试123</option>
+							<option>内置流程</option>
+						</select>
+						查看范围:&nbsp;<input class="dateTime" />
+						<div class="hide-div">
+							<div>全部成员</div>
+							<ul>
+								<li>市场部</li>
+								<li>手机端</li>
+								<li>Mike</li>
+								<li>梁普</li>
+							</ul>
+							<div id="div-btn">
+								<div id="btn-t">确定</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/index.js" ></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(".div2").click(function() {
+					$(this).next("div").slideToggle("slow")
+						.siblings(".div3:visible").slideUp("slow");
+				});
+			});
+		</script>
+	</body>
+
+</html>

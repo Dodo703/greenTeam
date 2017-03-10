@@ -1,0 +1,195 @@
+body,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+	clear: both;
+	height: 0;
+	content: " ";
+	display: block;
+}
+
+.top {
+	height: 47px;
+	width: 100%;
+	background: #4F4A61;
+	position: relative;
+	border-bottom: 2px solid #FFA933;
+}
+
+.top_sp {
+	line-height: 47px;
+	color: #FFFFFF;
+	font-size: 15px;
+	margin-left: 5px;
+}
+
+.top_link {
+	border: 1px solid #C3AE7E;
+	display: block;
+	position: absolute;
+	top: 7px;
+	right: 165px;
+	width: 112px;
+	line-height: 31px;
+	border-radius: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: #CAB480;
+	font-size: 14px;
+}
+
+.Usimg {
+	vertical-align: middle;
+	width: 35px;
+	border-radius: 50%;
+	margin-right: 8px;
+}
+
+.top_right {
+	position: absolute;
+	right: 59px;
+	top: 6px;
+}
+
+.UsName {
+	font-size: 13px;
+	color: white;
+}
+
+.border_sp {
+	position: absolute;
+	border-left: 1px solid #49405C;
+	height: 47px;
+	top: 0;
+	border-right: 1px solid #696174;
+	right: 145px;
+}
+
+.management {}
+
+.mune {
+	float: left;
+	background: #221D23;
+	width: 200px;
+}
+
+.tab {
+	float: left;
+}
+
+.mune_ul li {
+	list-style: none;
+	width: 180px;
+	line-height: 46px;
+	cursor: context-menu;
+	color: #BBBBBB;
+	font-size: 12px;
+	padding-left: 20px;
+}
+
+.mune_ul li:hover {
+	
+}
+
+.ull,
+.ui,
+.uii,
+.ul {
+	height: 0;
+	overflow: hidden;
+}
+.ull li,
+.ui li,
+.uii li,
+.ul li{
+	padding-left: 30px;
+}
+.tab-top-sp{
+	font-family: "微软雅黑";
+	color: #666666;
+	font-weight: bold;
+	    font-size: 15px;
+    line-height: 71px;
+    margin-left: 20px;
+}
+.Export_btn{
+	    position: absolute;
+    width: 80px;
+    background: #FF8C00;
+    color: white;
+    height: 32px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 3px;
+    right: 16px;
+    top: 19px;
+    cursor: pointer;
+}
+.tab-top{
+	    height: 73px;
+    background: #F7F8FD;
+    border-bottom: 1px solid #E8E9EE;
+    position: relative;
+}
+.tab-time{
+	width: 98%;
+    border-bottom: 1px solid #DDDDDD;
+    margin: auto;
+    height: 56px;
+    padding-top: 28px;
+    font-size: 14px;
+    position: relative;
+}
+.dateTime{
+	height: 26px;
+    margin-right: 13px;
+    outline: none;
+}
+.dataSele{
+	    width: 134px;
+    height: 32px;
+}
+.hide-div{
+	border: 1px solid #CCCCCC;
+	width: 218px;
+	height: 300px;
+	position: absolute;
+	top: 60px;
+    left: 516px;
+    display: none;
+}
+.hide-div div{
+	font-size: 14px;
+	padding-left: 30px;
+	background: #F4F4F4;
+	line-height: 30px;
+}
+.hide-div ul li{
+	list-style: none;
+	width: 169px;
+	line-height: 42px;
+	padding-left: 50px;
+}
+#div-btn{
+	    background: white;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    position: relative;
+    top: 55px;
+}
+#btn-t{
+	background: #FF8C00;
+    padding: 0;
+    width: 62px;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    margin: 5px;
+    position: relative;
+    left: 114px;
+    line-height: 35px;
+}
